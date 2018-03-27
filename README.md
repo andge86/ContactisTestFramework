@@ -2,6 +2,7 @@ How to run:
 
 1. Open Terminal/Command line and verify jdk and maven installed:
 execute: java -version
+and
 execute: mvn -v
 
 If not, please, install.
