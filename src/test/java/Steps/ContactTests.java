@@ -94,7 +94,7 @@ public class ContactTests{
     }
 
     @Then("^Client can see fields Imie i nazwisko, Adres e-mail, Numer telefonu, Tresc wiadomosci$")
-    public void client_can_see_fields_Imie_i_nazwisko_Adres_e_mail_Numer_telefonu_Tresc_wiadomosci() throws InterruptedException, UnsupportedEncodingException {
+    public void client_can_see_fields_Imie_i_nazwisko_Adres_e_mail_Numer_telefonu_Tresc_wiadomosci(){
         assertTrue(contactPage.nameTextField.isDisplayed());
         //    System.out.println(contactPage.nameTextField.getAttribute("placeholder"));
         assertTrue(contactPage.nameTextField.getAttribute("placeholder").equals("Imię i nazwisko"));
