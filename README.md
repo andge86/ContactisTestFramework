@@ -7,7 +7,9 @@ execute: mvn -v
 
 If not, please, install.
 
-2. Open Terminal/Command line, go to project folder (use cd) and execute: 
+2. Download ContactisTestFramework folder from git.
+
+3. Open Terminal/Command line, go to downloaded project folder (use cd) and execute: 
 mvn test
 or
 mvn test -X
