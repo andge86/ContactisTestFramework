@@ -16,6 +16,7 @@ mvn test -X
 
 
 Note:
-1. Fully working tests on macOS. Asserts with polish letters will fail on Windows.
-2. Used Thread.sleep(). Better idea is to use WebDriverWait.
-3. Scenario "Client can fill Contact form" better describes Feature
+1. To use web/mobile test run, uncomment required line in config.properties file.
+2. Fully working tests on macOS. Asserts with polish letters will fail on Windows.
+3. Used Thread.sleep(). Better idea is to use WebDriverWait.
+4. Scenario "Client can fill Contact form" is better for testing Feature
